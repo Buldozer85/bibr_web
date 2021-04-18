@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  background-color: #291502;
+}
+
+header .obalHeader {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+header h1 {
+  color: white;
+}
+
+header nav {
+  margin-left: 3%;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.obrazekVelky {
+  background-image: url(/images/way-3845758_1920.jpg?7daaad01bbaa9c38625dc263a5dc9587);
+  background-position: center center;
+  background-size: cover;
+  padding: 15%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+}
+
+main .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .about article {
+  margin: 10px 10%;
+}
+
+main .kontakt {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .kontakt .obalKontaktu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.obalH1 {
+  background-color: #291502;
+  -webkit-clip-path: polygon(0 11%, 100% 0, 100% 88%, 0% 100%);
+          clip-path: polygon(0 11%, 100% 0, 100% 88%, 0% 100%);
+  padding: 2%;
+  color: white;
+}

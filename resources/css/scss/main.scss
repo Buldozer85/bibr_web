@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+$font-main: 'Ubuntu';
+$header_text: white;
+$hneda_header:rgb(41,
+21,
+2);
+body {
+    margin: 0;
+    font-family: $font-main, sans-serif;
+}
+
+header {
+    background-color: $hneda_header;
+    .obalHeader {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        //  padding: 0 2%;
+    }
+    h1 {
+        color: $header_text;
+    }
+    nav {
+        margin-left: 3%;
+        a {
+            text-decoration: none;
+            color: $header_text;
+            padding: 15px;
+            font-size: 25px;
+        }
+    }
+}
+
+.obrazekVelky {
+    background-image: url(pics/way-3845758_1920.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 15%;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+}
+
+main {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        article {
+            margin: 10px 10%;
+        }
+    }
+    .kontakt {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .obalKontaktu {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.obalH1 {
+    background-color: $hneda_header;
+    clip-path: polygon(0 11%, 100% 0, 100% 88%, 0% 100%);
+    padding: 2%;
+    color: $header_text;
+}
